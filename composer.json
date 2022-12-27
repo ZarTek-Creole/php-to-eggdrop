@@ -1,0 +1,20 @@
+{
+    "name": "zartek-creole/php-to-eggdrop",
+    "description": "A PHP API to communicate with eggdrop",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZarTek Creole",
+            "email": "contact@zartek-creole.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eggdrop\\": "src/"
+        }
+    }
+}
